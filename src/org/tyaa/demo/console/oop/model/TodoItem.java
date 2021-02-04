@@ -39,4 +39,12 @@ public class TodoItem {
         }
         this.title = title;
     }
+
+    @Override
+    public String toString() {
+        return "TodoItem{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }
